@@ -9,8 +9,6 @@ class StartPage extends StatelessWidget {
     Get.toNamed('/test?question=1');
   }
 
-  
-
   @override
   Widget build(BuildContext context) {
     return Column(
