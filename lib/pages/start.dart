@@ -6,7 +6,8 @@ class StartPage extends StatelessWidget {
   const StartPage({Key? key}) : super(key: key);
 
   startQuizz() async {
-    Get.toNamed('/test?question=1');
+    // Get.toNamed('/test?question=1');
+    Get.toNamed('/quizzes');
   }
 
   @override

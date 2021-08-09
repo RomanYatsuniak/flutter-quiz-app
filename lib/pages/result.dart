@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import './../controllers/main_controller.dart';
 
-class Result extends StatelessWidget {
-  Result({Key? key}) : super(key: key);
+class ResultPage extends StatelessWidget {
+  ResultPage({Key? key}) : super(key: key);
   final Controller c = Get.put(Controller());
 
   startQuizzAgain() {
